@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Dr. A.P.J. Abdul Kalam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tribute to Dr. A.P.J. Abdul Kalam</h1>
+        </header>
+        <section class="content">
+            <img src="/Task2/A._P._J._Abdul_Kalam.jpg" alt="Dr. A.P.J. Abdul Kalam">
+            <p>Dr. A.P.J. Abdul Kalam, the 11th President of India, was a renowned aerospace scientist and an inspiring leader. He played a pivotal role in India's space and missile development programs and is often referred to as the "Missile Man of India."</p>
+            <p>Born on October 15, 1931, in Rameswaram, Tamil Nadu, Dr. Kalam faced numerous challenges in his early life. Despite humble beginnings, his dedication to education and hard work led him to become a respected scientist and a beloved public figure.</p>
+            <p>Dr. Kalam was not just a scientist; he was a visionary. He believed in the power of youth and encouraged them to dream big. His famous quote, "You have to dream before your dreams can come true," continues to inspire millions.</p>
+            <p>In addition to his scientific contributions, Dr. Kalam was an excellent writer and educator. His books, including "Wings of Fire" and "Ignited Minds," are motivational and provide valuable insights into his life and philosophy.</p>
+        </section>
+        <footer>
+            <p>&copy; 2024 Tribute to Dr. A.P.J. Abdul Kalam</p>
+        </footer>
+    </div>
+</body>
+</html>
