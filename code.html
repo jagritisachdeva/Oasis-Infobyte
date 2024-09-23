@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Login Authentication</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login Authentication</h1>
+        <div id="formContainer">
+            <form id="registerForm">
+                <h2>Register</h2>
+                <input type="text" id="registerUsername" placeholder="Username" required>
+                <input type="password" id="registerPassword" placeholder="Password" required>
+                <button type="submit">Register</button>
+                <p>Already have an account? <a href="#" id="showLoginLink">Login here</a></p>
+            </form>
+
+            <form id="loginForm" style="display: none;">
+                <h2>Login</h2>
+                <input type="text" id="loginUsername" placeholder="Username" required>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="#" id="showRegisterLink">Register here</a></p>
+            </form>
+        </div>
+
+        <div id="securedContent" style="display: none;">
+            <h2>Secured Content</h2>
+            <p>Welcome to the secured page!</p>
+            <button id="logoutButton">Logout</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
